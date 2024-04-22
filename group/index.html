@@ -19,10 +19,11 @@
     <meta name="description" content="课题组照片展示      body {         font-family: Arial, sans-serif;         margin: 0;         padding: 0;         background-color: #f4f4f4;     }     .gallery {         display: flex;         flex-wrap">
 <meta property="og:type" content="website">
 <meta property="og:title" content="课题组成员介绍">
-<meta property="og:url" content="http://example.com/about/index.html">
+<meta property="og:url" content="http://example.com/group/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="课题组照片展示      body {         font-family: Arial, sans-serif;         margin: 0;         padding: 0;         background-color: #f4f4f4;     }     .gallery {         display: flex;         flex-wrap">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/img/shenfei.png">
 <meta property="og:image" content="http://example.com/img/avatar.png">
 <meta property="og:image" content="http://example.com/img/avatar.png">
 <meta property="og:image" content="http://example.com/img/avatar.png">
@@ -30,12 +31,11 @@
 <meta property="og:image" content="http://example.com/img/avatar.png">
 <meta property="og:image" content="http://example.com/img/avatar.png">
 <meta property="og:image" content="http://example.com/img/avatar.png">
-<meta property="og:image" content="http://example.com/img/avatar.png">
-<meta property="article:published_time" content="2024-04-09T08:10:10.970Z">
-<meta property="article:modified_time" content="2024-04-09T08:06:47.424Z">
+<meta property="article:published_time" content="2024-04-22T11:28:28.390Z">
+<meta property="article:modified_time" content="2024-04-22T11:28:28.390Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/img/avatar.png">
+<meta name="twitter:image" content="http://example.com/img/shenfei.png">
   
   
   
@@ -129,7 +129,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>文档</span>
+                <span>新闻&公告</span>
               </a>
             </li>
           
@@ -139,9 +139,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/" target="_self">
+              <a class="nav-link" href="/research/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
-                <span>科研</span>
+                <span>科研成果</span>
               </a>
             </li>
           
@@ -151,9 +151,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/about/" target="_self">
+              <a class="nav-link" href="/group/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
-                <span>成员</span>
+                <span>课题组成员</span>
               </a>
             </li>
           
@@ -297,21 +297,29 @@
 </head>
 <body>
 
+
 <div class="teacher-title">课题组老师</div>
 <div class="gallery">
     <div class="gallery-item">
-        <img src="../img/avatar.png" srcset="/img/loading.gif" lazyload alt="Photo 1" onclick="openModal('photo1.jpg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.')">
-        <span>沈飞</span>
+        <a href="/member/shenfei/">
+            <img src="../img/shenfei.png" srcset="/img/loading.gif" lazyload alt="Photo 1" onclick="openModal('photo2.jpg', 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')">
+            <span>沈飞</span>
+        </a>
     </div>
     <div class="gallery-item">
-        <img src="../img/avatar.png" srcset="/img/loading.gif" lazyload alt="Photo 2" onclick="openModal('photo2.jpg', 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')">
-        <span>曹新运</span>
+        <a href="/public/example/index.html">
+            <img src="../img/avatar.png" srcset="/img/loading.gif" lazyload alt="Photo 2" onclick="openModal('photo2.jpg', 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')">
+            <span>曹新运</span>
+        </a>
     </div>
     <div class="gallery-item">
-        <img src="../img/avatar.png" srcset="/img/loading.gif" lazyload alt="Photo 3" onclick="openModal('photo3.jpg', 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">
-        <span>葛玉龙</span>
+        <a href="/public/example/index.html">
+            <img src="../img/avatar.png" srcset="/img/loading.gif" lazyload alt="Photo 3" onclick="openModal('photo3.jpg', 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">
+            <span>葛玉龙</span>
+        </a>
     </div>
 </div>
+
 
 <div class="teacher-title">在读研究生</div>
 <div class="gallery">
